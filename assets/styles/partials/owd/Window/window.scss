@@ -1,0 +1,19 @@
+.owd-window {
+  &__nav {
+    &__btn-group {
+      &--prepend {
+        position: relative;
+        left: -8px;
+
+        a, button {
+          margin-right: 12px;
+        }
+      }
+
+      &--append {
+        position: relative;
+        right: -8px;
+      }
+    }
+  }
+}
